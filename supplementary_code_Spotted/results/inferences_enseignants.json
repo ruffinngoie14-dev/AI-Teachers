@@ -1,0 +1,212 @@
+{
+ "hit": {
+  "p": 68.8,
+  "ci": [
+   59.0,
+   79.0
+  ]
+ },
+ "fa": {
+  "p": 7.1,
+  "ci": [
+   3.0,
+   12.0
+  ]
+ },
+ "cr": {
+  "p": 80.9,
+  "ci": [
+   70.0,
+   90.0
+  ]
+ },
+ "dprime": {
+  "moy": 1.4,
+  "ci": [
+   1.1,
+   1.67
+  ]
+ },
+ "critere": {
+  "moy": 0.28,
+  "ci": [
+   0.18,
+   0.39
+  ],
+  "p_wilcoxon": 5.183096550907866e-05
+ },
+ "dprime_version": {
+  "V1": 1.48,
+  "V2": 1.31,
+  "p": 0.629844374576417
+ },
+ "gee_position": {
+  "OR": 1.01,
+  "lo": 0.9,
+  "hi": 1.13,
+  "p": 0.8700121966783421
+ },
+ "rho_DT_dprime": {
+  "rho": 0.37,
+  "p": 0.01078519483531523,
+  "ci": [
+   0.11,
+   0.6
+  ]
+ },
+ "prime": {
+  "moy": 2.26,
+  "ci": [
+   1.45,
+   3.1
+  ],
+  "dz": 0.78,
+  "p": 7.737979264491662e-06
+ },
+ "icc_notes": 0.36,
+ "mixte_sigma": {
+  "enseignant": 1.88,
+  "residu": 2.08
+ },
+ "mixte_sans_nsp": {
+  "ia": 2.75,
+  "susp": -0.59,
+  "p_susp": 0.117
+ },
+ "susp_effets_fixes_texte": {
+  "b": -0.45,
+  "lo": -1.16,
+  "hi": 0.27,
+  "p": 0.21864419048924588
+ },
+ "susp_textes_IA_seuls": {
+  "b": -0.51,
+  "lo": -1.11,
+  "hi": 0.09,
+  "p": 0.09757363509623505,
+  "n": 141
+ },
+ "longueur_mots": {
+  "IA": [
+   156,
+   161,
+   165
+  ],
+  "etudiants": [
+   111,
+   124,
+   134
+  ]
+ },
+ "nsp_total": {
+  "n": 35,
+  "part": 12.4
+ },
+ "dprime_sans_nsp": {
+  "moy": 1.53,
+  "n": 43
+ },
+ "alpha": {
+  "DT (DT1, DT2)": {
+   "alpha": 0.78,
+   "lo": 0.6,
+   "hi": 0.88,
+   "n": 47,
+   "k": 2
+  },
+  "AC (AC1, AC2, AC3r)": {
+   "alpha": 0.49,
+   "lo": 0.17,
+   "hi": 0.7,
+   "n": 47,
+   "k": 3
+  },
+  "MI (MI1-MI3)": {
+   "alpha": 0.7,
+   "lo": 0.51,
+   "hi": 0.82,
+   "n": 47,
+   "k": 3
+  },
+  "EV (EV1, EV2, EV3r)": {
+   "alpha": -0.3,
+   "lo": -1.12,
+   "hi": 0.23,
+   "n": 47,
+   "k": 3
+  },
+  "FO (FO1, FO2)": {
+   "alpha": 0.72,
+   "lo": 0.49,
+   "hi": 0.84,
+   "n": 47,
+   "k": 2
+  }
+ },
+ "kendallW_ci": {
+  "F1": [
+   0.11,
+   0.3
+  ],
+  "F2": [
+   0.14,
+   0.34
+  ],
+  "F3": [
+   0.08,
+   0.3
+  ],
+  "F4": [
+   0.1,
+   0.29
+  ]
+ },
+ "mmcm_oral_moins_ecrit": {
+  "diff": 0.375,
+  "ci": [
+   -0.18,
+   0.91
+  ]
+ },
+ "oral_vs_ecrit_signes": {
+  "oral": 26,
+  "ecrit": 21,
+  "p": 0.5600646295802106
+ },
+ "B5_jamais_parmi_concernes": {
+  "jamais": 23,
+  "concernes": 33,
+  "part": 69.7,
+  "ci": [
+   52.7,
+   82.6
+  ],
+  "toujours": 3
+ },
+ "B5_usagers_evaluation": {
+  "n": 33,
+  "repartition": {
+   "Jamais": 20,
+   "Non concerné": 5,
+   "Parfois": 5,
+   "Toujours": 3
+  },
+  "ci_jamais": [
+   43.7,
+   75.3
+  ]
+ },
+ "B5_reprend_note": {
+  "Jamais": 2,
+  "Parfois": 1
+ },
+ "B5_exige_declaration": {
+  "n": 8,
+  "repartition": {
+   "Jamais": 4,
+   "Parfois": 2,
+   "Toujours": 1,
+   "Non concerné": 1
+  }
+ }
+}

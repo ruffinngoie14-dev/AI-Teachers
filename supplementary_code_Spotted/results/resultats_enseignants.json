@@ -1,0 +1,637 @@
+{
+ "n": 47,
+ "version": {
+  "V1": 25,
+  "V2": 22
+ },
+ "etab": {
+  "ISP/Mbanza-Ngungu": 22,
+  "UPN": 14,
+  "ISP/Gombe": 11
+ },
+ "grade": {
+  "Chef de travaux": 14,
+  "Assistant": 12,
+  "Professeur": 8,
+  "Professeur associé": 7,
+  "Professeur ordinaire": 6
+ },
+ "femmes": 10,
+ "usagers": 45,
+ "anciennete": {
+  "11 à 20 ans": 18,
+  "Plus de 20 ans": 14,
+  "5 à 10 ans": 14,
+  "Moins de 5 ans": 1
+ },
+ "effectif": {
+  "Moins de 50": 17,
+  "101 à 200": 10,
+  "50 à 100": 9,
+  "Plus de 400": 7,
+  "201 à 400": 4
+ },
+ "version_ia": {
+  "Gratuite uniquement": 26,
+  "Payante, à mes frais": 19
+ },
+ "B3_au_moins_parfois": {
+  "Préparer un cours": 72.3,
+  "Rédiger des questions": 42.6,
+  "QCM": 40.4,
+  "Barème": 17.0,
+  "Corriger/noter": 6.4,
+  "Commentaires": 21.3,
+  "Évaluer TFC/mémoire": 42.6,
+  "Vérifier IA": 44.7,
+  "Article/projet": 57.4,
+  "Traduire": 83.0
+ },
+ "B4": {
+  "Je ne l'ai jamais fait": 33,
+  "Je l'utilise seulement pour départager des cas difficiles": 4,
+  "Je soumets la copie et je reprends la note proposée": 3,
+  "Je soumets la copie avec mon barème, puis je vérifie la note": 1
+ },
+ "B5": {
+  "Jamais": 23,
+  "Non concerné": 12,
+  "Parfois": 7,
+  "Toujours": 3
+ },
+ "C1": {
+  "Plus de 50 %": 19,
+  "26 à 50 %": 8,
+  "Je ne sais pas": 6,
+  "10 à 25 %": 6,
+  "Moins de 10 %": 5,
+  "Aucune": 3
+ },
+ "C3": {
+  "J'interroge l'étudiant oralement sur son travail": 21,
+  "Rien, faute de preuve": 10,
+  "Je réduis la note": 9,
+  "Je demande de refaire le travail": 4,
+  "Je n'ai jamais eu de soupçon": 2,
+  "J'attribue zéro": 1
+ },
+ "C2": {
+  "Une langue trop correcte par rapport au niveau habituel de l'étudiant": 36,
+  "Un vocabulaire ou des tournures inhabituels": 30,
+  "L'étudiant ne sait pas expliquer son travail à l'oral": 26,
+  "Des copies très semblables entre elles": 20,
+  "Des références qui n'existent pas": 16,
+  "L'absence d'exemples tirés du contexte congolais": 13,
+  "Un contenu sans lien avec ce qui a été enseigné": 10,
+  "Le résultat d'un outil de détection": 9,
+  "Autre": 6
+ },
+ "C4": {
+  "Plus d'épreuves écrites en salle surveillée": 24,
+  "Ajout ou extension d'épreuves orales": 18,
+  "Aucune modification": 11,
+  "Autorisation de l'IA avec obligation de la déclarer": 8,
+  "Sujets ancrés dans des données ou des situations locales": 6,
+  "Travaux rendus en plusieurs étapes": 4,
+  "avec brouillons": 4,
+  "Interdiction explicite de l'IA": 4,
+  "Exercices où l'étudiant doit critiquer une réponse produite par l'IA": 2
+ },
+ "G4": {
+  "Enseigner aux étudiants un usage critique de l'IA": 31,
+  "Utiliser l'IA pour préparer les cours et les évaluations": 30,
+  "Concevoir des évaluations adaptées à l'IA": 24,
+  "Reconnaître un usage non déclaré de l'IA": 20,
+  "Questions éthiques et juridiques": 15,
+  "Autre": 8
+ },
+ "G1": {
+  "Non": 27,
+  "Oui, pour les étudiants seulement": 12,
+  "Je ne sais pas": 6,
+  "Oui, pour les étudiants et les enseignants": 2
+ },
+ "G2": {
+  "Non": 23,
+  "Oui, sans décision": 13,
+  "Oui, avec des décisions prises": 8,
+  "Je ne sais pas": 3
+ },
+ "G3_aucune": 17,
+ "C5_moy": 2.98,
+ "likert": {
+  "DT1": 3.96,
+  "DT2": 4.19,
+  "DT3": 3.09,
+  "AC1": 4.36,
+  "AC2": 4.55,
+  "AC3": 2.06,
+  "MI1": 3.15,
+  "MI2": 3.36,
+  "MI3": 3.3,
+  "EV1": 3.85,
+  "EV2": 3.34,
+  "EV3": 3.49,
+  "FO1": 3.64,
+  "FO2": 4.21
+ },
+ "likert_accord": {
+  "DT1": 78.7,
+  "DT2": 85.1,
+  "DT3": 38.3,
+  "AC1": 89.4,
+  "AC2": 93.6,
+  "AC3": 14.9,
+  "MI1": 42.6,
+  "MI2": 48.9,
+  "MI3": 46.8,
+  "EV1": 72.3,
+  "EV2": 44.7,
+  "EV3": 48.9,
+  "FO1": 61.7,
+  "FO2": 83.0
+ },
+ "alpha_DT12": 0.78,
+ "textes": {
+  "T1": {
+   "source": "IA",
+   "juge_IA": 31,
+   "juge_H": 11,
+   "nsp": 5,
+   "note": 14.96,
+   "note_et": 2.45,
+   "cert": 3.15
+  },
+  "T2": {
+   "source": "etudiant",
+   "juge_IA": 2,
+   "juge_H": 39,
+   "nsp": 6,
+   "note": 12.15,
+   "note_et": 2.74,
+   "cert": 3.3
+  },
+  "T3": {
+   "source": "etudiant",
+   "juge_IA": 2,
+   "juge_H": 39,
+   "nsp": 6,
+   "note": 12.53,
+   "note_et": 3.13,
+   "cert": 3.21
+  },
+  "T4": {
+   "source": "IA",
+   "juge_IA": 33,
+   "juge_H": 9,
+   "nsp": 5,
+   "note": 14.62,
+   "note_et": 2.45,
+   "cert": 3.09
+  },
+  "T5": {
+   "source": "IA",
+   "juge_IA": 33,
+   "juge_H": 6,
+   "nsp": 8,
+   "note": 14.68,
+   "note_et": 2.77,
+   "cert": 3.19
+  },
+  "T6": {
+   "source": "etudiant",
+   "juge_IA": 6,
+   "juge_H": 36,
+   "nsp": 5,
+   "note": 12.79,
+   "note_et": 3.25,
+   "cert": 3.28
+  }
+ },
+ "tout_nsp": 3,
+ "taux_reconnaissance_IA": 68.8,
+ "taux_fausse_alarme": 7.1,
+ "taux_reconnaissance_H": 80.9,
+ "DET_moy": 4.49,
+ "DET_dist": {
+  "0": 5,
+  "1": 1,
+  "3": 5,
+  "4": 5,
+  "5": 11,
+  "6": 20
+ },
+ "dprime": {
+  "moy": 1.4,
+  "med": 1.47,
+  "positifs": 39,
+  "negatifs": 3,
+  "p_wilcoxon": 6.005950178565931e-08
+ },
+ "critere_c_moy": 0.28,
+ "dprime_actifs": 1.5,
+ "rho_DT_dprime": [
+  0.369,
+  0.01078519483531523
+ ],
+ "DT_accord": 74.5,
+ "notes_source_jugement": {
+  "H|H": {
+   "m": 12.4,
+   "n": 114
+  },
+  "H|IA": {
+   "m": 12.6,
+   "n": 10
+  },
+  "H|nsp": {
+   "m": 13.0,
+   "n": 17
+  },
+  "IA|H": {
+   "m": 15.58,
+   "n": 26
+  },
+  "IA|IA": {
+   "m": 14.65,
+   "n": 97
+  },
+  "IA|nsp": {
+   "m": 14.11,
+   "n": 18
+  }
+ },
+ "prime_IA": {
+  "moy": 2.26,
+  "med": 2.33,
+  "plus": 38,
+  "moins": 9,
+  "egal": 0,
+  "p": 7.737979264491662e-06,
+  "noteIA": 14.75,
+  "noteH": 12.49
+ },
+ "mixte": {
+  "ia": {
+   "b": 2.53,
+   "lo": 1.87,
+   "hi": 3.18,
+   "p": 3.4610744962749416e-14
+  },
+  "susp": {
+   "b": -0.42,
+   "lo": -1.13,
+   "hi": 0.28,
+   "p": 0.24092092704065948
+  },
+  "pos": {
+   "b": 0.13,
+   "lo": -0.01,
+   "hi": 0.28,
+   "p": 0.06485888171770403
+  }
+ },
+ "mixte_interaction": {
+  "b": -0.61,
+  "p": 0.5
+ },
+ "mixte_n": {
+  "obs": 282,
+  "groupes": 47
+ },
+ "exact_position": {
+  "1": 70.2,
+  "2": 78.7,
+  "3": 72.3,
+  "4": 80.9,
+  "5": 74.5,
+  "6": 72.3
+ },
+ "poids_moyens": {
+  "AI-fraud resistance": 0.267,
+  "Large cohorts": 0.223,
+  "Real understanding": 0.318,
+  "Teacher workload": 0.192
+ },
+ "critere_rang1": {
+  "AI-fraud resistance": 15,
+  "Large cohorts": 6,
+  "Real understanding": 18,
+  "Teacher workload": 8
+ },
+ "agregation": {
+  "F1": {
+   "MMCM": {
+    "QCM": 2,
+    "Ecrit_salle": 3,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "MMCM_k2": {
+    "QCM": 4.333,
+    "Ecrit_salle": 4.0,
+    "Domicile": 2.333,
+    "Oral": 5.0,
+    "Projet": 3.333,
+    "Portfolio": 2.333
+   },
+   "Range": {
+    "QCM": 3,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Median": {
+    "QCM": 3,
+    "Ecrit_salle": 1,
+    "Domicile": 5,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Copeland": {
+    "QCM": 2,
+    "Ecrit_salle": 3,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Condorcet_winner": "Oral",
+   "W": [
+    0.18059884886503266,
+    4.796543437646133e-08
+   ],
+   "moyenne_rang": {
+    "QCM": 3.02,
+    "Ecrit_salle": 3.0,
+    "Domicile": 4.64,
+    "Oral": 2.62,
+    "Projet": 3.45,
+    "Portfolio": 4.28
+   }
+  },
+  "F2": {
+   "MMCM": {
+    "QCM": 1,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 3,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "MMCM_k2": {
+    "QCM": 5.333,
+    "Ecrit_salle": 4.333,
+    "Domicile": 2.333,
+    "Oral": 4.0,
+    "Projet": 3.0,
+    "Portfolio": 2.667
+   },
+   "Range": {
+    "QCM": 1,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 3,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Median": {
+    "QCM": 1,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 3,
+    "Projet": 4,
+    "Portfolio": 4
+   },
+   "Copeland": {
+    "QCM": 1,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 3,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Condorcet_winner": "QCM",
+   "W": [
+    0.21510702968376125,
+    1.069268470712252e-09
+   ],
+   "moyenne_rang": {
+    "QCM": 2.32,
+    "Ecrit_salle": 2.87,
+    "Domicile": 4.57,
+    "Oral": 3.15,
+    "Projet": 3.81,
+    "Portfolio": 4.28
+   }
+  },
+  "F3": {
+   "MMCM": {
+    "QCM": 5,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 3,
+    "Portfolio": 4
+   },
+   "MMCM_k2": {
+    "QCM": 2.667,
+    "Ecrit_salle": 4.333,
+    "Domicile": 2.333,
+    "Oral": 4.667,
+    "Projet": 4.0,
+    "Portfolio": 3.0
+   },
+   "Range": {
+    "QCM": 5,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 3,
+    "Portfolio": 4
+   },
+   "Median": {
+    "QCM": 5,
+    "Ecrit_salle": 1,
+    "Domicile": 5,
+    "Oral": 1,
+    "Projet": 3,
+    "Portfolio": 4
+   },
+   "Copeland": {
+    "QCM": 5,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 3,
+    "Portfolio": 4
+   },
+   "Condorcet_winner": "Oral",
+   "W": [
+    0.16187027096941084,
+    3.7048997748586313e-07
+   ],
+   "moyenne_rang": {
+    "QCM": 4.11,
+    "Ecrit_salle": 2.85,
+    "Domicile": 4.49,
+    "Oral": 2.6,
+    "Projet": 3.13,
+    "Portfolio": 3.83
+   }
+  },
+  "F4": {
+   "MMCM": {
+    "QCM": 1,
+    "Ecrit_salle": 3,
+    "Domicile": 5,
+    "Oral": 2,
+    "Projet": 4,
+    "Portfolio": 6
+   },
+   "MMCM_k2": {
+    "QCM": 5.333,
+    "Ecrit_salle": 3.667,
+    "Domicile": 3.0,
+    "Oral": 4.0,
+    "Projet": 3.0,
+    "Portfolio": 2.0
+   },
+   "Range": {
+    "QCM": 1,
+    "Ecrit_salle": 3,
+    "Domicile": 5,
+    "Oral": 2,
+    "Projet": 4,
+    "Portfolio": 6
+   },
+   "Median": {
+    "QCM": 1,
+    "Ecrit_salle": 2,
+    "Domicile": 4,
+    "Oral": 2,
+    "Projet": 4,
+    "Portfolio": 6
+   },
+   "Copeland": {
+    "QCM": 1,
+    "Ecrit_salle": 4,
+    "Domicile": 5,
+    "Oral": 2,
+    "Projet": 3,
+    "Portfolio": 6
+   },
+   "Condorcet_winner": "QCM",
+   "W": [
+    0.17045851387182306,
+    1.4538531167614555e-07
+   ],
+   "moyenne_rang": {
+    "QCM": 2.32,
+    "Ecrit_salle": 3.62,
+    "Domicile": 3.85,
+    "Oral": 2.98,
+    "Projet": 3.66,
+    "Portfolio": 4.57
+   }
+  },
+  "global": {
+   "MMCM": {
+    "QCM": 3,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "MMCM_k2": {
+    "QCM": 3.861,
+    "Ecrit_salle": 3.951,
+    "Domicile": 2.285,
+    "Oral": 4.326,
+    "Projet": 3.569,
+    "Portfolio": 2.938
+   },
+   "Range": {
+    "QCM": 3,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Median": {
+    "QCM": 3,
+    "Ecrit_salle": 2,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Copeland": {
+    "QCM": 2,
+    "Ecrit_salle": 3,
+    "Domicile": 6,
+    "Oral": 1,
+    "Projet": 4,
+    "Portfolio": 5
+   },
+   "Condorcet_winner": "Oral",
+   "moyenne_note": {
+    "QCM": 3.876,
+    "Ecrit_salle": 3.896,
+    "Domicile": 2.499,
+    "Oral": 4.219,
+    "Projet": 3.528,
+    "Portfolio": 2.981
+   }
+  }
+ },
+ "F6": {
+  "Examen oral": 14,
+  "Questions ouvertes ou dissertation en salle surveillée": 14,
+  "Projet ou exposé avec soutenance": 12,
+  "QCM en salle surveillée": 5,
+  "Portfolio ou travail en plusieurs étapes, avec brouillons": 2
+ },
+ "nu_41": 6,
+ "bootstrap_premier": {
+  "MMCM": {
+   "QCM": 11.4,
+   "Ecrit_salle": 5.5,
+   "Domicile": 0.0,
+   "Oral": 83.0,
+   "Projet": 0.0,
+   "Portfolio": 0.0
+  },
+  "Range": {
+   "QCM": 11.4,
+   "Ecrit_salle": 4.3,
+   "Domicile": 0.0,
+   "Oral": 84.2,
+   "Projet": 0.0,
+   "Portfolio": 0.0
+  },
+  "Median": {
+   "QCM": 10.6,
+   "Ecrit_salle": 23.1,
+   "Domicile": 0.0,
+   "Oral": 66.4,
+   "Projet": 0.0,
+   "Portfolio": 0.0
+  },
+  "Copeland": {
+   "QCM": 10.7,
+   "Ecrit_salle": 11.2,
+   "Domicile": 0.0,
+   "Oral": 77.7,
+   "Projet": 0.5,
+   "Portfolio": 0.0
+  }
+ }
+}
